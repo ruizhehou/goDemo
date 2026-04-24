@@ -24,8 +24,9 @@ func Multiply(a, b int) int {
 // All returns a map of all available operations.
 func All() map[string]MathOp {
 	return map[string]MathOp{
-		"Add":      Add,
+		"Add": Add,
 		"Subtract": Subtract,
 		"Multiply": Multiply,
+		
 	}
 }
